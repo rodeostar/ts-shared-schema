@@ -17,5 +17,3 @@ Filewatcher runs separate from targets, so targets should be run in separate ter
 5. open `targets/vanilla-js/index.html` in the browser, no server necessary
 
 When the schema is updated, all targets will receive an updated copy. The express endpoints are now strictly typed and the react UI conforms to the same schema, avoiding duplicate code and other side effects. Routes are defined in the shared schema, so changes to route urls require no updates to targets.
-
-To see this in action, break
