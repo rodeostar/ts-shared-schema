@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="app"></div>
+    <script src="./@sdk/index.js"></script>
+    <script>
+      const client = createClient({
+        apiKey: '123',
+      });
+
+      client
+        .document()
+        .retrieve({
+          id: '1',
+        })
+        .then((doc) => {
+          console.log(doc);
+        });
+
+      client
+        .documents()
+        .retrieve()
+        .then((docs) => {
+          console.log(docs);
+        });
+    </script>
+  </body>
+</html>

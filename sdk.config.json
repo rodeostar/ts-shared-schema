@@ -1,0 +1,21 @@
+{
+  "clients": {
+    "@sdk": {
+      "out": [
+        {
+          "dir": "./targets/vanilla-js",
+          "platform": "browser",
+          "js": true
+        },
+        {
+          "dir": "./targets/express-ts/src",
+          "platform": "node"
+        },
+        {
+          "dir": "./targets/react-ts/src",
+          "platform": "node"
+        }
+      ]
+    }
+  }
+}
